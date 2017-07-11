@@ -72,6 +72,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "ファイル区切り文字追加";
+            this.Deactivate += new System.EventHandler(this.Form1_Deactivate);
             this.ResumeLayout(false);
             this.PerformLayout();
 

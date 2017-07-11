@@ -29,5 +29,10 @@ namespace AddFileDelimiter
             }
             this.Close();
         }
+
+        private void Form1_Deactivate(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
